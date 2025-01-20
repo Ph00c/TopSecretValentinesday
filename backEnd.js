@@ -13,5 +13,9 @@ window.addEventListener('DOMContentLoaded', () => {
         no.style.left = Math.floor(Math.random() * (maxWidth + 1)) + 'px';
         no.style.top = Math.floor(Math.random() * (maxHeight + 1)) + 'px';
     });
+    no.addEventListener('mouseover', () => {
+        no.style.left = Math.floor(Math.random() * (maxWidth + 1)) + 'px';
+        no.style.top = Math.floor(Math.random() * (maxHeight + 1)) + 'px';
+    });
 });
 
