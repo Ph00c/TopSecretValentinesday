@@ -55,8 +55,9 @@
     border-radius: 16px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    left: -250px;
+    position: absolute;
+    left: 30%;
+    top: 80%;
     width: 250px;
     height:100px;
 }
@@ -68,6 +69,8 @@
     position: absolute;
     width:250px;
     height:100px;
+    left: 50%;
+    top: 80%;
 }
 section{
     width: 80%;
@@ -86,9 +89,13 @@ h2{
     background-color: #C5345F;
     text-align: center;
 }
+questionPage {
+    background-color: #C5345F;
+    text-align: center;
+}
 
 .homepage{
-    background-color: pink;
+    background-color: #ffc0cb;
  }
  .topRow{
     color: red;
@@ -125,6 +132,14 @@ h2{
         color: white;
    
    
+   
+ }
+ 
+ 
+ .image-container{
+    position:absolute;
+    left: 43%; 
+    top: 25%;
    
  }
  

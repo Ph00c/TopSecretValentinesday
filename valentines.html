@@ -7,11 +7,17 @@
     <link rel = "stylesheet" type="text/css" href="styles.css"/>
 </head>
 </head>
-<body id="questionPages">
+<body id="questionPage">
+    <style>
+        body {
+          background-image: url('PhucEmilyValentineGif.gif');
+          background-repeat: no-repeat;
+        background-size: 50%;
+        background-position:top
+        }
+        </style>
     <script src = "backEnd.js"></script>
-    <h1>Final Question!</h1>
-    <h1>Will You be My Valentine?</h1>
-    <button id = "yesButton" class="yesButton">Yes</button>
+    <button id = "yesButton" class="yesButton" onclick = "window.location.href='endingpage.html'">Yes</button>
     <button id="noButton" class="noButton" onclick="myFunction();">No</button>
 </body>
 </html>
